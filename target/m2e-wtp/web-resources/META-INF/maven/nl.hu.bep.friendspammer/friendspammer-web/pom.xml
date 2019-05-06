@@ -10,17 +10,22 @@
 	<url>http://maven.apache.org</url>
 	<repositories>
 		<repository>
-			<id>my-repo2</id>
-			<name>packagecloud-luccah0607</name>
-			<url>https://packagecloud.io/luccah0607/friendspammerhelper</url>
+			<id>luccah0607-friendspammerhelper</id>
+			<url>https://packagecloud.io/luccah0607/friendspammerhelper/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 	<dependencies>
 		<dependency>
-  <groupId>nl.hu.bep.friendspammer</groupId>
-  <artifactId>friendspammer-helper</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
+			<groupId>nl.hu.bep.friendspammer</groupId>
+			<artifactId>friendspammer-helper</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
